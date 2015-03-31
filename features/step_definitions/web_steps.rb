@@ -25,3 +25,4 @@ end
 Then(/^I should see a selector$/) do
   expect(page).to have_selector('table tr')
 end
+

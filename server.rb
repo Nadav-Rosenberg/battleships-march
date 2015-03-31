@@ -15,6 +15,7 @@ class Battleships < Sinatra::Base
   end
 
   get '/board_page' do
+    @board = Board.new(cell: Cell, size: 9)
     erb :board_page
   end
 

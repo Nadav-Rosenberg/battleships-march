@@ -6,3 +6,7 @@ Feature: Starting the game
   Scenario: Getting aboard 
     Given I am on the board_page
     Then I should see a selector
+
+  Scenario: Generating a board
+    Given I am on the board_page
+    Then I should see "C"
